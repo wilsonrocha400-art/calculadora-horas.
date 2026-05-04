@@ -19,7 +19,7 @@ jobs:
         run: |
           pip install flet
       - name: Build Web
-- name: Build Web
+      - name: Build Web
         run: |
           flet build web --base-url /calculadora-horas/
       - name: Upload artifact
